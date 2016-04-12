@@ -37,3 +37,6 @@ var styleEx = StyleSheet.create({
 });
 </code>
 </pre>
+<h1>参考文献：</h1>
+<p><a href="http://reactnative.cn/" target="_blank">React Native中文网</a></p>
+<p><a href="http://www.oschina.net/translate/going-native-with-react" target="_blank">开源中国社区</a></p>
