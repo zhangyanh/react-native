@@ -16,4 +16,4 @@
 <p>运行Android应用:</p>
 <p>1、$ cd nativePro（进入项目目录）</p>
 <p>2、在android sdk中打开avd安卓模拟系统界面（终端里执行命令：android avd）</p>
-<p>3、终端里运行react-native run-android即可看到项目效果</p>
+<p>3、终端里所在项目目录下（ex:nativePro）运行react-native run-android即可看到项目效果</p>
