@@ -37,6 +37,12 @@ var styleEx = StyleSheet.create({
 });
 </code>
 </pre>
+<p>4、所有的图片都放在Images.xcassets 文件夹下，图片必须按照严重的命名约定，使用的资源名称(比如 messages 或者是 settings) 并在后面给它带上它应该适用来显示的分辨率。例如，我要为 iPhone6 构建一个应用程序，我会为此使用 @2x 分辨率。加入图片后，用require('image!assetname')方法调用。例如要引用一个图片名为icon-title@2x.png的图片</p>
+<pre>
+    <code>
+        <View icon = {require('image!icon-title')}></View>
+    </code>
+</pre>
 <h1>参考文献：</h1>
 <p><a href="http://reactnative.cn/" target="_blank">React Native中文网</a></p>
 <p><a href="http://www.oschina.net/translate/going-native-with-react" target="_blank">开源中国社区</a></p>
