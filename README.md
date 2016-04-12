@@ -19,7 +19,28 @@
 <p>3、终端里所在项目目录下（ex:nativePro）运行react-native run-android即可看到项目效果,如果希望使用手机等设备进行浏览，那么就需要在项目文件中找到AppDelegate.m文件，打开找到localhost修改为本地地址即可。</p>
 <h1>注意事项：</h1>
 <p>1、所有的文本都必须封装在Text组件中；</p>
-<p>2、不使用div,section,aside等标签，react中使用的是View组件，会应射到原生的ios组件中；</p>
+<p>2、不使用div,section,aside等标签，react中使用的是View组件，会应射到原生的ios组件中；组件引用及定义：</p>
+<code>
+    <pre>
+        'use strict';
+        var {
+            Component,
+            View,
+            Text,
+            StyleSheet
+        } = React;
+        var modeTest = React.createClass({
+            render:function(){
+                return(
+                    <View style={styleEx.base}>
+                        <Text style={styleEx.contenter}>textTest</Text>
+                    </View>
+                )
+            }
+        });
+        AppRegistry.registerComponent('modeTest',() => nativePro);
+    </pre>
+</code>
 <p>3、没有样式表，会以javascrip对像的形式书写，例：</p>
 <pre>
 <code>
