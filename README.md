@@ -61,8 +61,8 @@ var styleEx = StyleSheet.create({
 <p>4、所有的图片都放在Images.xcassets 文件夹下，图片必须按照严重的命名约定，使用的资源名称(比如 messages 或者是 settings) 并在后面给它带上它应该适用来显示的分辨率。例如，我要为 iPhone6 构建一个应用程序，我会为此使用 @2x 分辨率。加入图片后，用require('image!assetname')方法调用。例如要引用一个图片名为icon-title@2x.png的图片</p>
 <pre>
     <code>
-        图标引用：icon = {require('image!icon-title')}；<br/>
-        内容图片引用：<Image source={ { uri: person.picture } } />
+        图标引用：在需要图标的标签里加 icon = {require('image!icon-title')}；<br/>
+        内容图片引用：在图片标签里加 source={ { uri: person.picture } } 
     </code>
 </pre>
 <h1>参考文献：</h1>
