@@ -1,4 +1,6 @@
 # react-native学习（不断更新中）
+<p>学习之前需要了解的相关知识：</p>
+<p>1、jsx语法；2、js语法及相关；3、html+css布局知道；4、nodejs；</p>
 <h1>一、环境配置(以mac系统为例)</h1>
 <p>1、大环境：用xcod安装git,然后安装node.js，node自带npm，然后用npm安装watchman等其它所需要的。</p>
 <p>2、ios环境：xcode直接用即可。android环境：下载android-sdk并且安装，参考：<a href="http://reactnative.cn/docs/0.23/android-setup.html#content" target="_blank">mac系统下安卓环境配置</a></p>
