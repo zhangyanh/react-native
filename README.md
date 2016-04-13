@@ -64,7 +64,7 @@ var styleEx = StyleSheet.create({
 <pre>
     <code>
         本地图片引用：在需要图标的标签里加 icon = {require('image!icon-title')}；或source={reuqire('./image.png')}<br/>
-        外链图片引用：在图片标签里加 source={ { uri: person.picture } } ,且Image组件里必须加图片的宽和高。
+        外链图片引用：在图片标签里加 source={ { uri: 图片外链地址 } } ,且Image组件里必须加图片的宽和高。
     </code>
 </pre>
 <h1>参考文献：</h1>
